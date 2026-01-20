@@ -23,7 +23,7 @@ This repository is provided strictly for academic peer-review and defensive rese
 - **De-sensitization**: The "Template & Seed Library" has been sanitized by replacing all harmful payloads with `{user_input/query}` placeholders.
 - **Harmful Content Warning**: Some files in the `quick_start` and `data/advbench_txt` directories contain raw adversarial queries from the public AdvBench dataset. These are necessary for evaluating Attack Success Rate (ASR) but should be handled with caution.
 - **Controlled Access to Results**: To prevent potential misuse of harmful content, we have uploaded a selection of **representative results** rather than the entire raw dataset. These files (especially prompt-response logs) are stored in a password-protected archive: `results.7z`. 
-- **Password Access**: The decryption password is provided in the **"Open Science / Artifact Availability"** section of our submitted paper. This ensures that detailed adversarial logs are accessible only to authorized peer-reviewers, effectively eliminating the risk of public abuse.
+- **Password Access**: The decryption password is provided in the **"Open Science"** section of our submitted paper. This ensures that detailed adversarial logs are accessible only to authorized peer-reviewers, effectively eliminating the risk of public abuse.
 - **Technical Note**: We recommend using [7-Zip](https://www.7-zip.org/) (Windows), [Keka](https://www.keka.io/) (macOS), or `p7zip` (Linux) to extract the `.7z` archive.
 - **Responsible Use**: We emphasize that this framework is intended to help model providers harden their "reasoning-aware" defenses.
 
@@ -48,4 +48,5 @@ tool_artifact/
 ├── LICENSE                  # MIT License (Anonymous)
 ├── requirements.txt         # Dependency specifications
 └── README.md                # This documentation
+
 
