@@ -5,7 +5,9 @@ This repository contains the official artifacts for the paper:
 Weaknesses in LLMs]"** (Submitted to USENIX Security 2026).
 
 ---
-
+> [!WARNING]
+> **Disclaimer**: `result.7z` contains raw outputs from adversarial testing, which may include non-compliant, offensive, or sensitive content. These materials are intended strictly for security research and defensive hardening purposes.
+> 
 ## 1. Overview
 This artifact provides the implementation of `UniAttack`, a framework designed to identify and evaluate structural vulnerabilities in LLM safety mechanisms through feature extraction and template fusion.
 
@@ -54,6 +56,7 @@ tool_artifact/
 ├── LICENSE                  # MIT License (Anonymous)
 ├── requirements.txt         # Dependency specifications
 └── README.md                # This documentation
+
 
 
 
