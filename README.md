@@ -1,9 +1,5 @@
 # UniAttack: A Unified Fusion-Based Framework for Evaluating Defensive Weaknesses in LLMs
 
-This repository contains the official artifacts for the paper:  
-**"[UNIATTACK: A Uniformed Fusion-Based Framework for Evaluating Defensive
-Weaknesses in LLMs]"** (Submitted to USENIX Security 2026).
-
 ---
 > [!WARNING]
 > **Disclaimer**: `result.7z` contains raw outputs from adversarial testing, which may include non-compliant, offensive, or sensitive content. These materials are intended strictly for security research and defensive hardening purposes.
@@ -56,6 +52,7 @@ tool_artifact/
 ├── LICENSE                  # MIT License (Anonymous)
 ├── requirements.txt         # Dependency specifications
 └── README.md                # This documentation
+
 
 
 
